@@ -46,8 +46,7 @@ Currently focused on:
 I'm proud to be ranked among the top 1000 hackers on [Bugcrowd](https://bugcrowd.com/h/MUHAMMADWASEEM):
 
 <p align="center">
-  <img src="![<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/26226454-b916-47a4-8bc0-043ea9c32bfa" />
-](image1)" alt="Bugcrowd Top 1000 Hacker - Muhammad Waseem" width="80%"/>
+  <img src="https://github.com/user-attachments/assets/26226454-b916-47a4-8bc0-043ea9c32bfa" alt="Bugcrowd Top 1000 Hacker - Muhammad Waseem" width="80%"/>
 </p>
 
 ---
