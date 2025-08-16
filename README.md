@@ -53,10 +53,6 @@ I'm proud to be ranked among the top 1000 hackers on [Bugcrowd](https://bugcrowd
 
 
 
-## Alhamdolilah I'm on Bugcrowd July Month Leaderboard in P1,P2 
-
-<img width="1179" height="2556" alt="image" src="https://github.com/user-attachments/assets/f1597d33-fba2-42de-a620-553d4c0e00bb" />
- 
 
 ## 📊 GitHub Stats & Activity
 
